@@ -1,5 +1,5 @@
 import React from 'react'
-
+import classes from './AvailableMeals.module.css'
 //
 //Dummy data for meals
 //
@@ -32,10 +32,17 @@ const DUMMY_MEALS = [
 
   
   export const AvailableMeals = () => {
+
+      const mealList = DUMMY_MEALS.map(meal=> <li> {meal.name} </li>)
+
       return (
-          <div>
-              
-          </div>
+          <section className={classes.meals}>
+              <ul>
+                {mealList}
+              </ul>
+          </section>
       )
   }
   
+
+  export default AvailableMeals
