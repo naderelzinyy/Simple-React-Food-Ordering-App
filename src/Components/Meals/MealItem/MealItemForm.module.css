@@ -1,0 +1,27 @@
+
+
+.form {
+    text-align: right;
+  }
+  
+  .form button {
+    font: inherit;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #ffff;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    background: #048f65;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    justify-content: space-around;
+    transition: all 500ms ;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background: white;
+    border-color: #048f65;
+    color:#048f65;
+    box-shadow: 0 0 9px rgba(255, 255, 255, 0.26);
+    transition: all 300ms ;
+  }
