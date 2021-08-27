@@ -3,7 +3,7 @@
 import React, { Fragment } from 'react'
 import classes from '../Layout/Header.module.css'
 //import mealsImage from '../../'
-import Button from '../UI/CartButton/Button'
+import Button from '../Cart/CartButton/Button'
 
 export const Header = () => {
     return (
