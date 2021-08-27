@@ -5,12 +5,12 @@ import classes from '../Layout/Header.module.css'
 //import mealsImage from '../../'
 import Button from '../Cart/CartButton/Button'
 
-export const Header = () => {
+export const Header = (props) => {
     return (
         <Fragment>
             <header className={classes.header}>
                 <h1>Meals</h1>
-                <Button>Cart</Button>
+                <Button onClick={props.onShowCart}>Cart</Button>
             </header>
             <div className={classes['main-image']}>
                 <img
