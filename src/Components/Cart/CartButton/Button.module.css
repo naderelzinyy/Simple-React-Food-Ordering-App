@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  transition: all 500ms ;
+  transition: all 200ms ;
 
 }
 
