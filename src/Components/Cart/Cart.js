@@ -10,9 +10,11 @@ export const Cart = (props) => {
     const cartCtx = useContext(CartContext);
 
     const cartItemRemoveHandler = (id) =>{
+        cartCtx.removeItem(id);
     }
 
     const cartItemAddHandler = (item) => {
+        cartCtx.addItem({...item, amount:1});
     }   
     
     //const totalAmount = cartCtx.totalAmount;
